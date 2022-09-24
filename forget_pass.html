@@ -1,6 +1,16 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forgot Password</title>
     <style>
+         *, html, body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
         .container {
             background-color: plum;
             width: 100%;
@@ -8,6 +18,11 @@
             display: flex;
             justify-content: center;
             align-items: center;
+        }
+        .judul {
+            flex-direction: column;
+            text-align: center;
+            padding-bottom: 50px;
         }
         .Forget-pass {
             background-color: rgb(252, 137, 156);
@@ -23,6 +38,11 @@
             width: 100%;
             font-size: 20px;
             box-sizing: border-box;
+            border: none;
+            outline: none;
+            background: transparent;
+            border-bottom: 1px solid black;
+            padding-top: 20px;
         }
         .button [type="submit"] {
             border: none;
@@ -35,13 +55,13 @@
             margin-top: 30px;
         }
         .button [type="submit"]:hover {
-            background-color: purple;
+            background-color: green;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <div class="Forget-Pass">
+        <div class="Forget-pass">
             <div class="judul">
                 <h1>Forget Password</h1>
             </div>
@@ -68,4 +88,7 @@
             <div class="button">
                     <input type="submit" name="login" value="SUBMIT">
             </div>
+        </div>
+    </div>
 </body>
+</html>
