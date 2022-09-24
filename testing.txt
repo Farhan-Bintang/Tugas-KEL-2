@@ -1,5 +1,5 @@
 ini file testing
 Anggota kelompok :
--Muhammad Farhan Bintang Pridani
--Muhammad Alwan Faiz
--Ica Qurotul Aeni
+-Muhammad Farhan Bintang Pridani (5520120106)
+-Muhamad Alwan Faiz (5520120056)
+-Ica Qurotul Aeni (5520120107)
